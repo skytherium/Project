@@ -1,0 +1,91 @@
+﻿/* Общие стили для контейнера */
+.h-100 {
+    height: 100%;
+}
+
+.container {
+    margin: 0px 166px;
+    height: 100%;
+}
+
+/* Выравнивание по центру */
+.row.justify-content-sm-center {
+    justify-content: center;
+}
+
+/* Стили карточки */
+.card {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+    padding: 2.5rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Форма */
+.form-control {
+    margin-bottom: 1rem;
+}
+
+.form-text {
+    margin-bottom: 1rem;
+    color: #6c757d;
+}
+
+/* Кнопка */
+.btn-primary {
+    margin-left: auto;
+}
+
+/* Футер карточки */
+.card-footer {
+    padding: 0.75rem 2.5rem;
+    border: none;
+}
+
+    /* Ссылка в футере */
+    .card-footer a {
+        color: #000;
+        text-decoration: none;
+    }
+
+        .card-footer a:hover {
+            text-decoration: underline;
+        }
+
+/* Дополнительные стили */
+.text-center {
+    text-align: center;
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+.mt-5 {
+    margin-top: 3rem;
+}
+
+.py-3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.border-0 {
+    border: none;
+}
+
+.py-3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.text-dark {
+    color: #000 !important;
+}
